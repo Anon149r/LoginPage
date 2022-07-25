@@ -1,0 +1,36 @@
+<!--
+
+Created By Tinotenda Jongwe
+date: July 25
+Simple frontend login Page (Html,CSS,Javascript)
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="link.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="login">
+    	<h1>Login</h1>
+        <form method="post">
+        	<input type="text" name="u" placeholder="Username" required="required" />
+            <input type="password" name="p" placeholder="Password" required="required" />
+            <button onclick="newfunc()" id="btn" type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+        </form>
+    </div>
+
+    <script type="text/javascript">
+
+      const a = document.getElementByID("btn");
+      function newfunc(){
+        alert("Thank you for submitting your details !")
+      }
+
+    </script>
+
+  </body>
+</html>
